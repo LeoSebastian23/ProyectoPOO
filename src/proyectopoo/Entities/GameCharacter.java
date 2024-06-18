@@ -28,4 +28,5 @@ public abstract class GameCharacter {
     public void setPuntosVidaActual(int puntosVidaActual) {
         this.puntosVidaActual = puntosVidaActual;
     }
+
 }

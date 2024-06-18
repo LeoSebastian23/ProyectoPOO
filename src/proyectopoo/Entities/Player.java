@@ -15,7 +15,7 @@ public class Player extends GameCharacter implements Combatant{
     protected Weapon arm;
     
     // constructor
-    public Player(int curHp, int maxHp, String name) {
+    public Player(String name, int curHp, int maxHp, Weapon arm) {
         this.puntosVidaActual = curHp;
         this.maxPuntosVida = maxHp;
         this.name = name;

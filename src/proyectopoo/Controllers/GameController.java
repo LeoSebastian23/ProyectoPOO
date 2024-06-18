@@ -29,10 +29,26 @@ public class GameController {
         characters.add(character);
         gameMap.setCharacterAt(x, y, character);
     }
-
+/*
     public void move(GameCharacter character, int newX, int newY) {
-        // Lógica de movimiento
+    int currentX = -1, currentY = -1;
+    for (int i = 0; i < gameMap.getMap().length; i++) {
+        for (int j = 0; j < gameMap.getMap()[i].length; j++) {
+            if (gameMap.getCharacterAt(i, j) == character) {
+                currentX = i;
+                currentY = j;
+                break;
+            }
+        }
     }
+    if (currentX != -1 && currentY != -1) {
+        gameMap.setCharacterAt(currentX, currentY, null);
+        character.setX(newX);
+        character.setY(newY);
+        gameMap.setCharacterAt(newX, newY, character);
+    }
+}
+*/
 
     public void combat(GameCharacter attacker, GameCharacter defender) {
         // Lógica de combate

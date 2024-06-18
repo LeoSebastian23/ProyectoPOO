@@ -14,7 +14,7 @@ public class Weapon{
     protected String name;
     
     // Constructor
-    public Weapon(int maxDmg, int minDmg, String name) {
+    public Weapon( String name, int maxDmg, int minDmg) {
         this.maxDmg = maxDmg;
         this.minDmg = minDmg;
         this.name = name;
